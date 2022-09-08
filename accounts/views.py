@@ -7,7 +7,7 @@ from models.UserProfiles import UserProfile
 # Create your views here.
 
 class LoginPage(TemplateView):
-    template_name = "base_account_template.html"
+    template_name = "login_page.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
